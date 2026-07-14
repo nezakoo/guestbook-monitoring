@@ -1,0 +1,21 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# TypeScript build output
+bin/
+*.js
+*.js.map
+!jest.config.js
+
+# Pulumi
+Pulumi.*.yaml
+!Pulumi.yaml
+.pulumi/
+
+# OS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
